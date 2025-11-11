@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/healthchain/static/css/main.541a30cd.css",
-    "main.js": "/healthchain/static/js/main.afbc1e99.js",
-    "index.html": "/healthchain/index.html",
-    "main.541a30cd.css.map": "/healthchain/static/css/main.541a30cd.css.map",
-    "main.afbc1e99.js.map": "/healthchain/static/js/main.afbc1e99.js.map"
+    "main.css": "/medichain/static/css/main.541a30cd.css",
+    "main.js": "/medichain/static/js/main.21e8580b.js",
+    "index.html": "/medichain/index.html",
+    "main.541a30cd.css.map": "/medichain/static/css/main.541a30cd.css.map",
+    "main.21e8580b.js.map": "/medichain/static/js/main.21e8580b.js.map"
   },
   "entrypoints": [
     "static/css/main.541a30cd.css",
-    "static/js/main.afbc1e99.js"
+    "static/js/main.21e8580b.js"
   ]
 }
