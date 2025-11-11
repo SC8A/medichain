@@ -2,7 +2,7 @@
   "name": "healthchain",
   "version": "1.0.0",
   "description": "DApp de salud en blockchain - Healthchain",
-  "homepage": "https://criptolombia.github.io/Healthchain",
+  "homepage": "https://sc8a.github.io/healthchain",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/healthchain/static/css/main.541a30cd.css",
+    "main.js": "/healthchain/static/js/main.aa43302c.js",
+    "index.html": "/healthchain/index.html",
+    "main.541a30cd.css.map": "/healthchain/static/css/main.541a30cd.css.map",
+    "main.aa43302c.js.map": "/healthchain/static/js/main.aa43302c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.541a30cd.css",
+    "static/js/main.aa43302c.js"
+  ]
+}
