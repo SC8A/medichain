@@ -19,7 +19,7 @@ function History({ transactions, user }) {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-brand">🏥 Healthchain</div>
+        <div className="navbar-brand">🏥 Medichain</div>
         <div className="navbar-menu">
           <Link to="/dashboard" className="navbar-link">
             Dashboard
@@ -36,12 +36,12 @@ function History({ transactions, user }) {
       <div className="container">
         <div className="card">
           <h2 style={{ color: "#667eea", marginBottom: "20px" }}>
-            📊 Historial Médico en Healthchain
+            📊 Historial Médico en Medichain
           </h2>
 
           <div className="alert alert-info">
             <strong>📝 Registro Blockchain:</strong> Todas las transacciones
-            médicas quedan registradas permanentemente en Healthchain de forma
+            médicas quedan registradas permanentemente en Medichain de forma
             inmutable, transparente y segura para el sector salud.
           </div>
 
@@ -50,7 +50,7 @@ function History({ transactions, user }) {
               <div style={{ fontSize: "60px", marginBottom: "20px" }}>📭</div>
               <h3>No hay transacciones médicas</h3>
               <p style={{ color: "#6c757d" }}>
-                Aún no has realizado ninguna transacción en Healthchain.
+                Aún no has realizado ninguna transacción en Medichain.
               </p>
               <Link
                 to="/transaction"
@@ -142,7 +142,7 @@ function History({ transactions, user }) {
                                 <strong>Tratamiento:</strong> {tx.description}
                               </p>
                               <p style={{ wordBreak: "break-all" }}>
-                                <strong>Hash Healthchain:</strong>{" "}
+                                <strong>Hash Medichain:</strong>{" "}
                                 <code>{tx.signature}</code>
                               </p>
                               <p style={{ color: "#6c757d", fontSize: "12px" }}>
@@ -167,7 +167,7 @@ function History({ transactions, user }) {
                             style={{ marginTop: "15px" }}
                           >
                             ⛓️ Esta transacción médica ha sido validada y
-                            añadida a Healthchain blockchain. El registro es
+                            añadida a Medichain blockchain. El registro es
                             inmutable y puede ser consultado por profesionales
                             autorizados del sector salud.
                           </div>

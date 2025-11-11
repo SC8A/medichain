@@ -5,7 +5,7 @@ function Dashboard({ user, wallet, onLogout }) {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-brand">🏥 Healthchain</div>
+        <div className="navbar-brand">🏥 Medichain</div>
         <div className="navbar-menu">
           <Link to="/dashboard" className="navbar-link">
             Dashboard
@@ -64,7 +64,7 @@ function Dashboard({ user, wallet, onLogout }) {
             <div className="stat-card">
               <div className="stat-label">Estado Red</div>
               <div className="stat-value">🟢</div>
-              <small>Healthchain activa</small>
+              <small>Medichain activa</small>
             </div>
           </div>
 
@@ -91,7 +91,7 @@ function Dashboard({ user, wallet, onLogout }) {
                 <>
                   <li>✅ Validar transacciones médicas</li>
                   <li>✅ Verificar documentos de salud</li>
-                  <li>✅ Enviar registros a Healthchain blockchain</li>
+                  <li>✅ Enviar registros a Medichain blockchain</li>
                   <li>✅ Auditar historial de transacciones</li>
                 </>
               )}

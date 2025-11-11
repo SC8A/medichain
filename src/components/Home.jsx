@@ -11,7 +11,7 @@ function Home() {
         <h1
           style={{ color: "#667eea", marginBottom: "10px", fontSize: "48px" }}
         >
-          🏥 Healthchain
+          🏥 Medichain
         </h1>
         <p
           style={{
@@ -32,7 +32,7 @@ function Home() {
           className="alert alert-info"
           style={{ textAlign: "left", marginBottom: "30px" }}
         >
-          <h3>💡 ¿Cómo funciona Healthchain?</h3>
+          <h3>💡 ¿Cómo funciona Medichain?</h3>
           <ol style={{ marginTop: "15px", lineHeight: "1.8" }}>
             <li>
               <strong>Registro:</strong> Crea tu cuenta como Prestador de
@@ -60,7 +60,7 @@ function Home() {
         <div style={{ marginBottom: "30px" }}>
           <img
             src={process.env.PUBLIC_URL + "/flow-diagram.png"}
-            alt="Diagrama de Flujo Healthchain"
+            alt="Diagrama de Flujo Medichain"
             style={{
               maxWidth: "100%",
               borderRadius: "12px",
@@ -69,7 +69,7 @@ function Home() {
             onError={(e) => (e.target.style.display = "none")}
           />
           <p style={{ fontSize: "14px", color: "#6c757d", marginTop: "10px" }}>
-            Diagrama de flujo de la DApp Healthchain
+            Diagrama de flujo de la DApp Medichain
           </p>
         </div>
 
@@ -78,7 +78,7 @@ function Home() {
           className="btn btn-primary"
           style={{ fontSize: "18px", padding: "15px 40px" }}
         >
-          Comenzar con Healthchain →
+          Comenzar con Medichain →
         </Link>
 
         <div className="grid" style={{ marginTop: "40px", textAlign: "left" }}>
@@ -108,7 +108,7 @@ function Home() {
           }}
         >
           <h3 style={{ color: "#667eea", marginBottom: "15px" }}>
-            🌟 Beneficios de Healthchain
+            🌟 Beneficios de Medichain
           </h3>
           <div
             style={{

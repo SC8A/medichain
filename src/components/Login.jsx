@@ -39,9 +39,7 @@ function Login({ onLogin }) {
       <div className="card">
         <div style={{ textAlign: "center", marginBottom: "20px" }}>
           <h1 style={{ fontSize: "36px", marginBottom: "5px" }}>🏥</h1>
-          <h2 style={{ color: "#667eea", marginBottom: "10px" }}>
-            Healthchain
-          </h2>
+          <h2 style={{ color: "#667eea", marginBottom: "10px" }}>Medichain</h2>
         </div>
 
         <h3
@@ -52,7 +50,7 @@ function Login({ onLogin }) {
 
         <div className="alert alert-info">
           <strong>ℹ️ Simulación:</strong> Este es un login simulado. Puedes usar
-          cualquier email y contraseña para acceder a Healthchain.
+          cualquier email y contraseña para acceder a Medichain.
         </div>
 
         <form onSubmit={handleSubmit}>
@@ -83,7 +81,7 @@ function Login({ onLogin }) {
           </div>
 
           <div className="form-group">
-            <label>Rol en Healthchain</label>
+            <label>Rol en Medichain</label>
             <select
               name="role"
               className="form-control"
@@ -117,7 +115,7 @@ function Login({ onLogin }) {
             className="btn btn-primary"
             style={{ width: "100%", marginTop: "20px" }}
           >
-            {isRegister ? "Registrarse en Healthchain" : "Iniciar Sesión"}
+            {isRegister ? "Registrarse en Medichain" : "Iniciar Sesión"}
           </button>
         </form>
 

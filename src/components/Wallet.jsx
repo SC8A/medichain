@@ -13,7 +13,7 @@ function Wallet({ wallet, user }) {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-brand">🏥 Healthchain</div>
+        <div className="navbar-brand">🏥 Medichain</div>
         <div className="navbar-menu">
           <Link to="/dashboard" className="navbar-link">
             Dashboard
@@ -27,11 +27,11 @@ function Wallet({ wallet, user }) {
       <div className="container" style={{ maxWidth: "800px" }}>
         <div className="card">
           <h2 style={{ color: "#667eea", marginBottom: "20px" }}>
-            👛 Mi Wallet en Healthchain
+            👛 Mi Wallet en Medichain
           </h2>
 
           <div className="alert alert-info">
-            <strong>🔐 Wallet Healthchain:</strong> Tu wallet es tu identidad en
+            <strong>🔐 Wallet Medichain:</strong> Tu wallet es tu identidad en
             la blockchain de salud. La dirección pública te identifica y tu
             clave privada (simulada aquí) te permite firmar transacciones
             médicas de forma segura.
@@ -44,7 +44,7 @@ function Wallet({ wallet, user }) {
               <small style={{ color: "#6c757d" }}>USD</small>
             </div>
             <div className="stat-card">
-              <div className="stat-label">Estado de Healthchain</div>
+              <div className="stat-label">Estado de Medichain</div>
               <div className="stat-value">🟢</div>
               <small style={{ color: "#28a745" }}>Conectado</small>
             </div>
@@ -61,7 +61,7 @@ function Wallet({ wallet, user }) {
 
           <div style={{ marginTop: "30px" }}>
             <h3 style={{ marginBottom: "15px" }}>
-              Dirección Pública en Healthchain
+              Dirección Pública en Medichain
             </h3>
             <div className="wallet-address" style={{ position: "relative" }}>
               <div style={{ fontSize: "14px", marginBottom: "10px" }}>
@@ -96,7 +96,7 @@ function Wallet({ wallet, user }) {
               }}
             >
               <h4 style={{ color: "#856404", marginBottom: "15px" }}>
-                ⚠️ Buenas Prácticas en Healthchain
+                ⚠️ Buenas Prácticas en Medichain
               </h4>
               <ul style={{ lineHeight: "2", color: "#856404" }}>
                 <li>Nunca compartas tu clave privada con nadie</li>
@@ -114,7 +114,7 @@ function Wallet({ wallet, user }) {
 
           <div style={{ marginTop: "30px" }}>
             <h3 style={{ marginBottom: "15px" }}>
-              Detalles Técnicos de Healthchain
+              Detalles Técnicos de Medichain
             </h3>
             <div
               style={{
@@ -124,7 +124,7 @@ function Wallet({ wallet, user }) {
               }}
             >
               <p>
-                <strong>Red:</strong> Healthchain Testnet (Simulación Médica)
+                <strong>Red:</strong> Medichain Testnet (Simulación Médica)
               </p>
               <p>
                 <strong>Protocolo:</strong> ERC-20 Médico

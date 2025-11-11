@@ -55,7 +55,7 @@ function Transaction({ user, wallet, onTransaction }) {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-brand">🏥 Healthchain</div>
+        <div className="navbar-brand">🏥 Medichain</div>
         <div className="navbar-menu">
           <Link to="/dashboard" className="navbar-link">
             Dashboard
@@ -277,7 +277,7 @@ function Transaction({ user, wallet, onTransaction }) {
               <div className="alert alert-info">
                 <strong>🔐 Simulación:</strong> Al firmar, se genera una firma
                 criptográfica única que autentica tu identidad y autoriza la
-                transacción médica en Healthchain.
+                transacción médica en Medichain.
               </div>
 
               <button
@@ -304,9 +304,9 @@ function Transaction({ user, wallet, onTransaction }) {
               </div>
 
               <div className="alert alert-info">
-                <strong>⛓️ Healthchain Blockchain:</strong> La transacción
-                médica será enviada a la red Healthchain donde los validadores
-                la verificarán antes de añadirla al registro permanente e
+                <strong>⛓️ Medichain Blockchain:</strong> La transacción médica
+                será enviada a la red Medichain donde los validadores la
+                verificarán antes de añadirla al registro permanente e
                 inmutable.
               </div>
 
@@ -315,7 +315,7 @@ function Transaction({ user, wallet, onTransaction }) {
                 className="btn btn-primary"
                 style={{ width: "100%" }}
               >
-                📤 Enviar a Healthchain
+                📤 Enviar a Medichain
               </button>
             </div>
           )}
@@ -329,7 +329,7 @@ function Transaction({ user, wallet, onTransaction }) {
                 className="alert alert-success"
                 style={{ marginTop: "20px" }}
               >
-                Tu transacción ha sido enviada a Healthchain y está pendiente de
+                Tu transacción ha sido enviada a Medichain y está pendiente de
                 validación médica.
               </div>
               <p style={{ color: "#6c757d" }}>
