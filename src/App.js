@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Routes, Route, Navigate, HashRouter } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
 import Login from "./components/Login";
@@ -54,76 +54,70 @@ function App() {
   };
 
   return (
-    <HashRouter>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login onLogin={handleLogin} />} />
-          <Route
-            path="/dashboard"
-            element={
-              user ? (
-                <Dashboard
-                  user={user}
-                  wallet={wallet}
-                  onLogout={handleLogout}
-                />
-              ) : (
-                <Navigate to="/login" />
-              )
-            }
-          />
-          <Route
-            path="/transaction"
-            element={
-              user ? (
-                <Transaction
-                  user={user}
-                  wallet={wallet}
-                  onTransaction={addTransaction}
-                />
-              ) : (
-                <Navigate to="/login" />
-              )
-            }
-          />
-          <Route
-            path="/validation"
-            element={
-              user ? (
-                <Validation
-                  user={user}
-                  transactions={transactions}
-                  onUpdateStatus={updateTransactionStatus}
-                />
-              ) : (
-                <Navigate to="/login" />
-              )
-            }
-          />
-          <Route
-            path="/history"
-            element={
-              user ? (
-                <History transactions={transactions} user={user} />
-              ) : (
-                <Navigate to="/login" />
-              )
-            }
-          />
-          <Route
-            path="/wallet"
-            element={
-              user ? (
-                <Wallet wallet={wallet} user={user} />
-              ) : (
-                <Navigate to="/login" />
-              )
-            }
-          />
-        </Routes>
-      </div>
-    </HashRouter>
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login onLogin={handleLogin} />} />
+        <Route
+          path="/dashboard"
+          element={
+            user ? (
+              <Dashboard user={user} wallet={wallet} onLogout={handleLogout} />
+            ) : (
+              <Navigate to="/login" />
+            )
+          }
+        />
+        <Route
+          path="/transaction"
+          element={
+            user ? (
+              <Transaction
+                user={user}
+                wallet={wallet}
+                onTransaction={addTransaction}
+              />
+            ) : (
+              <Navigate to="/login" />
+            )
+          }
+        />
+        <Route
+          path="/validation"
+          element={
+            user ? (
+              <Validation
+                user={user}
+                transactions={transactions}
+                onUpdateStatus={updateTransactionStatus}
+              />
+            ) : (
+              <Navigate to="/login" />
+            )
+          }
+        />
+        <Route
+          path="/history"
+          element={
+            user ? (
+              <History transactions={transactions} user={user} />
+            ) : (
+              <Navigate to="/login" />
+            )
+          }
+        />
+        <Route
+          path="/wallet"
+          element={
+            user ? (
+              <Wallet wallet={wallet} user={user} />
+            ) : (
+              <Navigate to="/login" />
+            )
+          }
+        />
+      </Routes>
+    </div>
   );
 }
 
